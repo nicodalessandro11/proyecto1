@@ -12,9 +12,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f2f4fc;
 }
-
-
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
@@ -30,7 +29,46 @@ body {
 
 /* ------------------------------ Navbar ------------------------------ */
 
-/* Your CSS code goes here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f4fc;
+  padding: 10px;
+}
+
+.logo img {
+  height: 20px; 
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #7c829a;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #072ac8;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #292e47;
+}
 
 /* ------------------------------ Header ------------------------------ */
 
