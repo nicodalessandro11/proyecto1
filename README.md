@@ -86,7 +86,7 @@ Esta es la etapa final donde las tareas completadas son listadas.
 
 <!-- Acerca de mi -->
 
-## Acerca
+## Sobre mi
 
 Mi nombre es Nico D'Alessandro y soy "el desarrollador" detrás de este primer proyecto web. 
 
