@@ -22,11 +22,9 @@
     <a href="#roadmap">Roadmap</a>
      <ul>
      <li><a href="#backlog">Back log</a></li>
-        <li><a href="#day-one">Lunes 23, Enero 2023</a></li>
-        <li><a href="#day-two">Martes 24, Enero 2023</a></li>
-        <li><a href="#day-three">Miercoles 25, Enero 2023</a></li>
-        <li><a href="#day-four">Jueves 26, Enero 2023</a></li>
-        <li><a href="#day-five">Viernes 27, Enero 2023</a></li>
+     <li><a href="#todo">To do</a></li>
+     <li><a href="#doing">Doing</a></li>
+     <li><a href="#done">Done</a></li>
       </ul>
     </li>
     <li><a href="#acerca">Acerca</a></li>
@@ -42,9 +40,9 @@
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-Este proyecto tiene como objetivo construir y desplegar un sitio web totalmente responsivo utilizando las tecnologías que hemos aprendido hastael momento en el bootcamp de Front-End-Development: HTML, CSS y JavaScript.
+Este proyecto tiene como objetivo construir y desplegar el sitio web que se muestra en la imagen de manera totalmente responsiva y utilizando las tecnologías que hemos aprendido hastael momento en el bootcamp de Front-End-Development: HTML, CSS y JavaScript.
 
-La idea es recrear un diseño preexistente utilizando tus conocimientos de HTML y CSS y crear algunas interacciones con el DOM, utilizando lo que has aprendido sobre JavaScript hasta ahora. Al finalizar, deberás desplegar este proyecto en Netlify, utilizando la CLI de Git para hacerlo.
+La idea es recrear el diseño preexistente y crear algunas interacciones con el DOM, utilizando lo que hemos aprendido sobre JavaScript hasta ahora. Al finalizar, este proyecto se desplega en Netlify, utilizando la CLI de Git para hacerlo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,6 +53,7 @@ La idea es recrear un diseño preexistente utilizando tus conocimientos de HTML 
     - JavaScript
     - Git
     - Netlify CLI
+    - Trello
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,9 +75,9 @@ En esta etapa, se organizarán las tareas para el día, incluyendo la creación 
 
 ### Doing
 
-Esta es la etapa en la que se está trabajando en las tareas.
+Esta es la etapa en la que se detallan las tareas en las que se está actualmente trabajando.
 
-### Done - Viernes 27, Enero 2023
+### Done
 
 Esta es la etapa final donde las tareas completadas son listadas.
 
@@ -95,13 +94,13 @@ Tengo amplia experiencia utilizando herramientas para análisis de datos tales c
 
 Si tienes alguna pregunta sobre el proyecto no dudes en contactar conmigo, te dejo a continuación mis datos de contacto:
 
-- Twitter: [@ndalessandro](https://twitter.com/nicodalessandro)
+- Twitter: [@nicodalessa](https://twitter.com/nicodalessa)
 - Correo electrónico: nicodalessandro11@gmail.com
 
 Aquí están los enlaces relevantes al proyecto:
 
-- Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](test)
-- Enlace de presentación TBD: [Inserta aquí tu enlace de presentación](insert-link-here) TBD.-
+- Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](link)
+- Enlace de presentación TBD: [Inserta aquí tu enlace de presentación](link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,43 +109,24 @@ Aquí están los enlaces relevantes al proyecto:
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+Gracias a todos los que me apoyaron en este proyecto, principalmente a los compañeros del curso y al profesor del Bootcamp.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+A través del desarrollo de este proyecto, me enfrento a varios desafíos técnicos. Aunque tengo una extensa formación como analista de datos con experiencia en Python y SQL, este fue mi primer proyecto creando una página web desde cero.
 
-En esta sección se puede incluir información como:
+Uno de los desafíos más grandes es la estructura HTML. Aunque HTML pareciera ser menos complejo que muchos lenguajes de programación, organizar eficazmente el contenido y asegurar de que el sitio se renderiza correctamente en todos los navegadores presenta para mi un gran desafío y una nueva forma de utilizar la programación.
 
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
+Además, trabajar con CSS también es un desafío. Crear un diseño que sea estéticamente agradable y completamente responsivo no es tarea fácil.
 
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+En resumen, a pesar de los desafíos, este proyecto es en lo personal una gran oportunidad para aprender y crecer como desarrollador web. Espero que mi experiencia pueda ayudar y motivar a otros que com yo, están comenzando en esta emocionante área del desarrollo.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
+TBD.-
 
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
