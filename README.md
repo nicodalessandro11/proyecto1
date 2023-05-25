@@ -60,41 +60,28 @@ La idea es recrear un diseño preexistente utilizando tus conocimientos de HTML 
 
 ## Roadmap
 
-El desarrollo del proyecto se divide en varias etapas, y para su correcta organización se utilizará la herramienta Trello para brevemente detallar lo que se debe realizar cada día.
+El desarrollo del proyecto se divide en varias etapas, organizadas utilizando Trello para detallar cada día.
 
 > [Tablero de Trello](https://trello.com/invite/b/OYze7oF3/ATTIf0e03f9993341c15f6ca84da4fbc42f93A2B8C64/proyecto1)
 
+El tablero utiliza la metodología Kanban, que está dividida en las siguientes secciones:
 
-#### Backlog
+### Backlog
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
+Aquí se listan todas las tareas que son necesarias para completar el proyecto. Esto incluyela creación de la estructura básica del HTML, el estilo con CSS, la creación de las interacciones con la API con JavaScript y la implementación de la funcionalidad en el sitio web.
 
-#### Day One
+### To Do
 
-#### Day One
+En esta etapa, se organizarán las tareas para el día, incluyendo la creación de la estructura básica del HTML y la esquematización de la arquitectura del proyecto.
 
-###### Lunes 23, Enero 2023
+### Doing
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+Esta es la etapa en la que se está trabajando en las tareas.
 
-#### Day Two
+### Done - Viernes 27, Enero 2023
 
-###### Martes 24, Enero 2023
+Esta es la etapa final donde las tareas completadas son listadas.
 
-#### Day Three
-
-###### Miercoles 25, Enero 2023
-
-#### Day Four
-
-###### Jueves 26, Enero 2023
-
-#### Day Five
-
-###### Viernes 27, Enero 2023
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,22 +89,20 @@ El desarrollo del proyecto se divide en varias etapas, y para su correcta organi
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+Mi nombre es Nicolás D'Alessandro y soy "el desarrollador" detrás de este primer proyecto web. 
 
-En esta sección se puede incluir información como:
+Tengo amplia experiencia utilizando herramientas para análisis de datos tales como SQL, Python, etc pero en la busqueda de nuevas oportunidades para expandir mis habilidades he decidido realizar este bootcamp. La creación de este sitio web representa una forma de practicar y poner en práctica por primera vez la realización de un proyecto web y así poner a prueba mis habilidades en HTML, CSS y JavaScript.
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+Si tienes alguna pregunta sobre el proyecto no dudes en contactar conmigo, te dejo a continuación mis datos de contacto:
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
+- Twitter: [@ndalessandro](https://twitter.com/nicodalessandro)
+- Correo electrónico: nicodalessandro11@gmail.com
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Aquí están los enlaces relevantes al proyecto:
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+- Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](test)
+- Enlace de presentación TBD: [Inserta aquí tu enlace de presentación](insert-link-here) TBD.-
 
-Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
