@@ -1,25 +1,3 @@
-<!--
-Un archivo README.md es un archivo de markdown que contiene información sobre un proyecto. Típicamente se encuentra en el directorio raíz de un proyecto y se utiliza para proporcionar documentación e instrucciones para otros que puedan querer usar o contribuir al proyecto.
-
-Para los desarrolladores, un archivo README.md bien estructurado y bien documentado puede ser beneficioso de varias maneras. Puede ayudar a asegurar que otros puedan entender y usar fácilmente el proyecto, lo que puede conducir a más contribuciones y una comunidad más activa alrededor del proyecto. Además, puede hacer que sea más fácil para los desarrolladores incorporar a nuevos miembros del equipo y para que otros entiendan el propósito y la funcionalidad del proyecto.
-
-Para otros desarrolladores, un archivo README.md bien estructurado y bien documentado puede ser un recurso valioso cuando se trata de entender o usar un proyecto. Puede proporcionar información sobre los objetivos, funcionalidad y cómo usar del proyecto, lo que puede ahorrar tiempo y esfuerzo al tratar de ponerse al día en un nuevo proyecto. Además, un buen README.md también puede proporcionar información sobre cómo contribuir al proyecto y directrices para hacerlo, lo que puede facilitar que otros se involucren y contribuyan al proyecto.
-
-En el caso específico de comenzar en este mundo de desarrollo como desarrollador junior, lo cual todos ustedes, queridos estudiantes caen bajo ella, puede beneficiarse de la siguiente manera:
-
-Tener un archivo README.md bien estructurado y bien documentado también puede ser beneficioso para los nuevos desarrolladores junior que están tratando de entrar en el mercado laboral. El mercado laboral para desarrolladores es altamente competitivo, y tener un portafolio de proyectos bien documentados y fácilmente comprensibles puede diferenciar a un desarrollador junior de otros. Un archivo README.md bien escrito demuestra la habilidad de un desarrollador para comunicar y documentar su trabajo de manera efectiva, lo cual es una habilidad importante en cualquier entorno profesional. Además, tener un portafolio de proyectos bien documentados también puede ayudar a los desarrolladores junior a entender y explicar mejor su propio trabajo, lo cual puede ser beneficioso en entrevistas laborales y otros entornos profesionales. En general, un archivo README.md bien estructurado y bien documentado puede ayudar a los desarrolladores junior a mostrar sus habilidades y destacar en un mercado laboral competitivo.
--->
-
-<!-- Estructura -->
-<!--
-*** Estoy usando enlaces de estilo "referencia" de markdown para la legibilidad.
-*** Los enlaces de referencia están encerrados en corchetes [ ] en lugar de paréntesis ( ).
-*** Vea la parte inferior de este documento para la declaración de las variables de referencia
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-<!-- Por favor no borrar este elemeno, ayuda al elemento "back to top" -->
-
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -64,39 +42,28 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+Este proyecto tiene como objetivo construir y desplegar un sitio web totalmente responsivo utilizando las tecnologías que hemos aprendido hastael momento en el bootcamp de Front-End-Development: HTML, CSS y JavaScript.
 
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
-
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+La idea es recrear un diseño preexistente utilizando tus conocimientos de HTML y CSS y crear algunas interacciones con el DOM, utilizando lo que has aprendido sobre JavaScript hasta ahora. Al finalizar, deberás desplegar este proyecto en Netlify, utilizando la CLI de Git para hacerlo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+    - HTML
+    - CSS
+    - JavaScript
+    - Git
+    - Netlify CLI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
+
+El desarrollo del proyecto se divide en varias etapas, y para su correcta organización se utilizará la herramienta Trello para brevemente detallar lo que se debe realizar cada día.
+
+> [Tablero de Trello](https://trello.com/invite/b/OYze7oF3/ATTIf0e03f9993341c15f6ca84da4fbc42f93A2B8C64/proyecto1)
+
 
 #### Backlog
 
