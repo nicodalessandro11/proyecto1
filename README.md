@@ -24,7 +24,7 @@
      <li><a href="#backlog">Back log</a></li>
      <li><a href="#backlog">To do</a></li>
      <li><a href="#backlog">Doing</a></li>
-     <li><a href="#done">Done</a></li>
+     <li><a href="#backlog">Done</a></li>
       </ul>
     </li>
     <li><a href="#acerca">Acerca</a></li>
