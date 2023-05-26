@@ -30,7 +30,7 @@
     <li><a href="#acerca">Acerca</a></li>
     <li><a href="#agradecimientos">Agradecimientos</a></li>
     <li><a href="#desafío-técnico">Desafío Técnico</a></li>
-    <li><a href="#grande-error">Grande Error</a></li>
+    <li><a href="#grande-error">Grande Error</a></li> 
   </ol>
 </details>
 
