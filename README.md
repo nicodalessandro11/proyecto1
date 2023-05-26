@@ -22,8 +22,8 @@
     <a href="#roadmap">Roadmap</a>
      <ul>
      <li><a href="#backlog">Back log</a></li>
-     <li><a href="#todo">To do</a></li>
-     <li><a href="#doing">Doing</a></li>
+     <li><a href="#backlog">To do</a></li>
+     <li><a href="#backlog">Doing</a></li>
      <li><a href="#done">Done</a></li>
       </ul>
     </li>
