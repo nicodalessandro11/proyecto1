@@ -430,7 +430,54 @@ footer {
 
 /* ------------------------------ Form ------------------------------ */
 
-/* Your CSS code goes here */
+#contact .container {
+  width: 90%;
+  margin: auto;
+}
+.contact-container h1 {
+  font-size: 2rem;
+  color: #292e47;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.contact-container .contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container .contact-form label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6b708d;
+  margin-bottom: 10px;
+}
+
+.contact-container .contact-form form input,
+textarea {
+  border: 0;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+
+.contact-container .contact-form form textarea {
+  padding-top: 10px;
+  height: 200px;
+}
+
+.contact-container .contact-form form button {
+  border: 0;
+  background-color: #072ac8;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #fff;
+  padding: 1.5rem;
+  text-decoration: none;
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
