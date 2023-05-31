@@ -660,6 +660,18 @@ textarea {
     order: 2;
     margin-left: 16px;
   }
+
+  #contact .container {
+    width: 70%;
+    margin: auto;
+  }
+
+  #contact .contact-container h1 {
+    font-size: 4rem;
+    color: #292e47;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
 }
 
 /* ------------------------------ Hamburger menu ------------------------------ */
