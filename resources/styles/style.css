@@ -482,8 +482,76 @@ textarea {
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
+#about-us .container h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #292e47;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.about-persons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
 
-/* Your CSS code goes here */
+.about-person {
+  position: relative;
+  width: 50%;
+  margin: 20px;
+}
+
+.about-person h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+}
+
+.about-person img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.videos-container .video-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-description > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.video-description .video-artist {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #292e47;
+}
+
+.video-description p {
+  font-weight: 300;
+  color: #292e47;
+}
 
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */

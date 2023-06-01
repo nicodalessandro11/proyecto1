@@ -1,0 +1,45 @@
+{
+  "videos": [
+    {
+      "videoId": "1",
+      "artist": "Gustavo Cerati",
+      "title": "Entre Canibales",
+      "link": "https://www.youtube.com/watch?v=-fEHrmM9HLk",
+      "duration": "5:30",
+      "style": "Rock en español",
+      "embeddedLink": "https://www.youtube.com/embed/-fEHrmM9HLk"
+    },
+    {
+      "videoId": "2",
+      "artist": "Canserbero",
+      "title": "Pensando en Ti",
+      "link": "https://www.youtube.com/watch?v=kSk0kbHMGxw",
+      "duration": "5:02",
+      "style": "Rap/Hip-hop",
+      "embeddedLink": "https://www.youtube.com/embed/kSk0kbHMGxw"
+    },
+    {
+      "videoId": "3",
+      "artist": "ACZINO vs WOS- Final | Red Bull Internacional 2018",
+      "title": "Final Internacional Red Bull Batalla de los Gallos 2018",
+      "link": "https://www.youtube.com/watch?v=kJMPD1W2Pjs",
+      "duration": "19:04",
+      "style": "Freestyle/Improvisación",
+      "embeddedLink": "https://www.youtube.com/embed/kJMPD1W2Pjs"
+    },
+    {
+      "videoId": "4",
+      "artist": "Beirut",
+      "title": "Elephant Gun",
+      "link": "https://www.youtube.com/watch?v=SWSz_PAfgNc",
+      "duration": "4:32",
+      "style": "Indie folk",
+      "embeddedLink": "https://www.youtube.com/embed/SWSz_PAfgNc"
+    }
+  ],
+  "podcast": [
+    {
+      "link":"https://open.spotify.com/embed-podcast/show/1jXeGsr1X2gpss332C8cAw"
+    }
+  ]
+}

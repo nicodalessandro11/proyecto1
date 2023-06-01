@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Circle Agency</title>
+    <title>About us</title>
     <link rel="stylesheet" href="resources/styles/style.css" />
   </head>
 
@@ -39,30 +39,36 @@
 
     <main>
       <section id="about-us">
-        <h2>About us</h2>
-        <div class="about-persons-container">
-          <div class="about-person"></div>
-        </div>
-      </section>
-      <section id="favorite-songs">
-        <h2>Our favorite songs!</h2>
-        <div class="videos-container">
-          <div class="video">
-            <div class="video-description">
-              <h2>Music!</h2>
-              <h3>Nobuo Uematsu</h3>
-              <p><strong>Duración: </strong>5:49 minutes</p>
-              <p><strong>Videogame: </strong>5:49 minutes</p>
-              <a href="https://www.youtube.com/embed/WVJdv-s9QWg">Aerith Theme</a>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WVJdv-s9QWg" frameborder="0" allowfullscreen></iframe>
-
+        <div class="container">
+          <h1>About us</h1>
+          <div class="about-persons-container">
+            <div id="profile1" class="about-person">
+              <h2>John Doe</h2>
+              <img src="./resources/images/about/profile1.jpg" alt="Profile 1">
             </div>
-            <div class="video-link"></div>
+            <div id="profile2" class="about-person">
+              <h2>Olivia Doe</h2>
+              <img src="./resources/images/about/profile2.jpg" alt="Profile 1">
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="podcast"></section>
+      <section id="favorite-songs">
+        <div class="container">
+          <h2>Our favorite songs!</h2>
+          <div class="videos-container">
+          </div>
+        </div>
+      </section>
+
+      <section id="podcast">
+        <div class="container">
+          <h2>The best podcast we can show you</h2>
+          <div class="podcast">
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container">
@@ -85,6 +91,6 @@
       </div>
     </footer>
 
-    <script type="module" src="./resources/js/index.js"></script>
+    <script type="module" src="./resources/js/about.js"></script>
   </body>
 </html>
