@@ -50,13 +50,40 @@ nav {
   padding: 10px;
 }
 
+
 .logo img {
   height: 20px;
 }
 
-.menu,
+.menu{
+  height: 0px;
+  overflow: hidden;
+  position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    background: #c9c8c9;
+    transition: all .3s ease;
+}
 .contact {
   display: none;
+}
+nav .icon-container{
+  position: relative;
+}
+
+nav .icon-container i{
+  font-size: 28px;
+  color: #6c718b;
+  transition: all .3s ease;
+}
+nav .icon-container #btnHambur{
+  position: absolute;
+  z-index: 99;
+}
+nav .icon-container #btnCross{
+  opacity: 0;
+  position: relative;
 }
 
 .menu ul {
@@ -64,17 +91,25 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu ul li {
   margin-right: 15px;
   font-weight: 500;
+  padding: 16px 0;
+  width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: #7c829a;
 }
+
+
 
 /* ------------------------------ HERO ------------------------------ */
 
@@ -132,6 +167,36 @@ nav {
 #partners {
   margin: 3.5rem 0;
 }
+#carrousel{
+  display: none!important;
+}
+.owl-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+}
+
+.owl-item img:hover {
+  filter: none;
+}
+
+.owl-carousel .partners-logos .owl-loaded .owl-drag{
+  position: relative;
+}
+
+.owl-carousel .owl-stage::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 150px;
+}
+
 #partners .partners-logos {
   display: flex;
   flex-wrap: wrap;
@@ -720,13 +785,39 @@ textarea {
   header {
     padding: 52px 0;
   }
-  .menu,
+.icon-container{
+    display: none;
+  }
+  .menu{
+    height: auto;
+    background-color: transparent;
+    position: static;
+    width: auto;
+  }
   .contact {
     display: block;
+  }
+  .menu ul{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu ul li{
+    width: auto;
+    border: 0;
   }
   .menu ul li a {
     font-size: 1.05rem;
     margin: 0 12px;
+  }
+  #partners .partners-logos a {
+    width: 100%;
+    align-items: center;
+  }
+  #logosMobile{
+    display: none!important;
+  }
+  #carrousel{
+    display: block!important;
   }
   .contact .contact-btn {
     background-color: #072ac8;

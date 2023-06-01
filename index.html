@@ -1,262 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Circle Agency</title>
-  <link rel="stylesheet" href="resources/styles/style.css" />
-</head>
+    <title>Circle Agency</title>
+    <link rel="stylesheet" href="resources/styles/style.css" />
+  </head>
 
-<body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <a href="./index.html">
-            <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo" />
-          </a>
-        </div>
-
-        <div class="menu">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="./about-us.html">About</a></li>
-          </ul>
-        </div>
-
-        <div class="contact">
-          <a href="./contact-us.html" class="contact-btn">Contact Us</a>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section id="hero">
+  <body>
+    <header>
       <div class="container">
-        <div class="hero-container">
-          <div class="hero-text">
-            <h1>Empower Your Business With Stunning Design!</h1>
-            <p>
-              Circle is a digital design and development studio.<br />
-              We design and develop astonishing websites and mobile apps.
-            </p>
-            <div class="hero-container-button">
-              <a href="#" class="contact-btn">Get in touch</a>
-              <a href="#" class="work-btn">See our work</a>
-            </div>
+        <nav>
+          <div class="logo">
+            <a href="./index.html">
+              <img
+                src="./resources/images/logos/circle.svg"
+                alt="Circle Agency Logo"
+              />
+            </a>
           </div>
 
-          <div class="hero-pictures">
-            <img src="resources\images\hero-section\hero-image.png" alt="Hero Image" />
-            <img src="resources\images\hero-section\card-1.png" alt="Hero Image" />
-            <img src="resources\images\hero-section\card-2.png" alt="Hero Image" />
+          <div class="icon-container">
+            <i class="fa-solid fa-bars" id="btnHamburger"></i>
+            <i class="fa-solid fa-xmark" id="btnCross"></i>
           </div>
-        </div>
 
+          <div class="menu">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="./about-us.html">About</a></li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <a href="./contact-us.html" class="contact-btn">Contact Us</a>
+          </div>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section id="partners">
-      <div class="container">
-        <div class="partners-logos">
-          <a href="https://www.amazon.es" target="_blank">
-            <img src="resources/images/logos/amazon-logo.svg" alt="Amazon Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.nike.com" target="_blank">
-            <img src="resources/images/logos/Logo_NIKE.svg" alt="Nike Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.adidas.com" target="_blank">
-            <img src="resources/images/logos/Adidas_Logo.svg" alt="Adidas Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.airbnb.com" target="_blank">
-            <img src="resources/images/logos/airbnb-logo.svg" alt="Airbnb Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.google.es" target="_blank">
-            <img src="resources/images/logos/google-logo.svg" alt="Google Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.microsoft.com" target="_blank">
-            <img src="resources/images/logos/microsoft-logo.svg" alt="Microsoft Logo" class="partners-logos-brand" />
-          </a>
-          <a href="https://www.fedex.com" target="_blank">
-            <img src="resources/images/logos/fedex-logo.svg" alt="Fedex Logo" class="partners-logos-brand" />
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="container">
-        <h2 class="section-title">Recent Projects</h2>
-        <div class="js-projects">
-          <!-- <div class="project">
-
-            <img src="resources/images/projects-section/1.jpg" alt="Project Imagen" />
-
-
-            <div class="text-project">
-              <h3>
-                sunt aut facere repellat provident occaecati excepturi optio
-                reprehenderit
-              </h3>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero-container">
+            <div class="hero-text">
+              <h1>Empower Your Business With Stunning Design!</h1>
               <p>
-                quia et suscipit suscipit recusandae consequuntur expedita et
-                cum reprehenderit molestiae ut ut quas totam nostrum rerum est
-                autem sunt rem eveniet architecto
+                Circle is a digital design and development studio.<br />
+                We design and develop astonishing websites and mobile apps.
               </p>
-              <a href="project.html?id=1">Learn More</a>
+              <div class="hero-container-button">
+                <a href="#" class="contact-btn">Get in touch</a>
+                <a href="#" class="work-btn">See our work</a>
+              </div>
             </div>
-          </div>
 
-          <div class="project">
-            <img src="resources/images/projects-section/2.jpg" alt="Project Imagen" />
-            <div class="text-project">
-              <h3>
-                sunt aut facere repellat provident occaecati excepturi optio
-                reprehenderit
-              </h3>
-              <p>
-                quia et suscipit suscipit recusandae consequuntur expedita et
-                cum reprehenderit molestiae ut ut quas totam nostrum rerum est
-                autem sunt rem eveniet architecto
-              </p>
-              <a href="project.html?id=1">Learn More</a>
+            <div class="hero-pictures">
+              <img
+                src="resources\images\hero-section\hero-image.png"
+                alt="Hero Image"
+              />
+              <img
+                src="resources\images\hero-section\card-1.png"
+                alt="Hero Image"
+              />
+              <img
+                src="resources\images\hero-section\card-2.png"
+                alt="Hero Image"
+              />
             </div>
-          </div>
-
-          <div class="project">
-            <img src="resources/images/projects-section/3.jpg" alt="Project Imagen" />
-            <div class="text-project">
-              <h3>
-                sunt aut facere repellat provident occaecati excepturi optio
-                reprehenderit
-              </h3>
-              <p>
-                quia et suscipit suscipit recusandae consequuntur expedita et
-                cum reprehenderit molestiae ut ut quas totam nostrum rerum est
-                autem sunt rem eveniet architecto
-              </p>
-              <a href="project.html?id=1">Learn More</a>
-            </div> -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="clients">
+      <section id="partners">
+        <div class="container">
+          <div class="partners-logos" id="logosMobile">
+            <a href="https://www.amazon.es" target="_blank">
+              <img
+                src="resources/images/logos/amazon-logo.svg"
+                alt="Amazon Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.nike.com" target="_blank">
+              <img
+                src="resources/images/logos/Logo_NIKE.svg"
+                alt="Nike Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.adidas.com" target="_blank">
+              <img
+                src="resources/images/logos/Adidas_Logo.svg"
+                alt="Adidas Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.airbnb.com" target="_blank">
+              <img
+                src="resources/images/logos/airbnb-logo.svg"
+                alt="Airbnb Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.google.es" target="_blank">
+              <img
+                src="resources/images/logos/google-logo.svg"
+                alt="Google Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.microsoft.com" target="_blank">
+              <img
+                src="resources/images/logos/microsoft-logo.svg"
+                alt="Microsoft Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+            <a href="https://www.fedex.com" target="_blank">
+              <img
+                src="resources/images/logos/fedex-logo.svg"
+                alt="Fedex Logo"
+                class="partners-logos-brand"
+              />
+            </a>
+          </div>
+
+          <!-- Set up your HTML -->
+          <div class="owl-carousel partners-logos" id="carrousel">
+            <div>
+              <a href="https://www.amazon.es" target="_blank">
+                <img
+                  src="resources/images/logos/amazon-logo.svg"
+                  alt="Amazon Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.nike.com" target="_blank">
+                <img
+                  src="resources/images/logos/Logo_NIKE.svg"
+                  alt="Nike Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.adidas.com" target="_blank">
+                <img
+                  src="resources/images/logos/Adidas_Logo.svg"
+                  alt="Adidas Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.airbnb.com" target="_blank">
+                <img
+                  src="resources/images/logos/airbnb-logo.svg"
+                  alt="Airbnb Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.google.es" target="_blank">
+                <img
+                  src="resources/images/logos/google-logo.svg"
+                  alt="Google Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.microsoft.com" target="_blank">
+                <img
+                  src="resources/images/logos/microsoft-logo.svg"
+                  alt="Microsoft Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.fedex.com" target="_blank">
+                <img
+                  src="resources/images/logos/fedex-logo.svg"
+                  alt="Fedex Logo"
+                  class="partners-logos-brand"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Recent Projects</h2>
+          <div class="js-projects">
+            <!-- Generated with JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="clients">
+        <div class="container">
+          <h2>Hear What Our Clients Have to Say</h2>
+          <p>
+            "Circle helped us through every stage of our startup. We really
+            enjoyed working with you."
+          </p>
+          <div class="profile">
+            <img
+              src="resources/images/testimonial-section/profile.png"
+              alt="Profile Image"
+            />
+            <div>
+              <h4>Kristin Watson</h4>
+              <span>Booking.com</span>
+            </div>
+          </div>
+          <div class="emojis">
+            <img
+              src="resources/images/testimonial-section/memoji-1.png"
+              alt=""
+            /><img
+              src="resources/images/testimonial-section/memoji-2.png"
+              alt=""
+            /><img
+              src="resources/images/testimonial-section/memoji-3.png"
+              alt=""
+            /><img
+              src="resources/images/testimonial-section/memoji-4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h2 class="section-title">Our Services</h2>
+
+          <div class="services-container">
+            <!-- Generated with JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="questions">
+        <div class="container">
+          <div class="questions-container">
+            <h3>Do you have any questions?</h3>
+            <p>Let us help you!</p>
+            <div class="input-container">
+              <input type="text" placeholder="Enter your email" />
+              <a href="#" class="contact-btn">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
       <div class="container">
-        <h2>Hear What Our Clients Have to Say</h2>
-        <p>
-          "Circle helped us through every stage of our startup. We really
-          enjoyed working with you."
-        </p>
-        <div class="profile">
-          <img src="resources/images/testimonial-section/profile.png" alt="Profile Image" />
-          <div>
-            <h4>Kristin Watson</h4>
-            <span>Booking.com</span>
+        <div class="footer-address">
+          <div class="footer-address-logo">
+            <img src="./resources/images/logos/circle.svg" alt="Logo Circle" />
+          </div>
+          <div class="footer-address-text">
+            <p>2972 Westheimer Rd. Santa Ana,<br />Illinois 85486</p>
           </div>
         </div>
-        <div class="emojis">
-          <img src="resources/images/testimonial-section/memoji-1.png" alt=""><img
-            src="resources/images/testimonial-section/memoji-2.png" alt=""><img
-            src="resources/images/testimonial-section/memoji-3.png" alt=""><img
-            src="resources/images/testimonial-section/memoji-4.png" alt="">
+        <div class="footer-links">
+          <a href="#">Team</a>
+          <a href="#">Services</a>
+          <a href="#">About Us</a>
+          <a href="#">Press</a>
+          <a href="#">Projects</a>
+          <a href="#">Privacy Policy</a>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section id="services">
-      <div class="container">
-        <h2 class="section-title">Our Services</h2>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.slim.js"
+      integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL JS -->
+    <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
-        <div class="services-container">
-
-
-          <div class="service">
-            <div class="img-container">
-              <img src="resources/images/services-section/icons/1.svg" alt="service1 logo" />
-            </div>
-            <h3>User Interface Design</h3>
-            <p>
-              Circle provides you with a stunning user interface design that is
-              accessible to everyone.
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-
-          <div class="service">
-            <div class="img-container">
-              <img src="resources/images/services-section/icons/2.svg" alt="service2 logo" />
-            </div>
-            <h3>User Experience Design</h3>
-            <p>
-              Circle always focuses on delivering the best user experience to
-              your customers.
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-
-          <div class="service">
-            <div class="img-container">
-              <img src="resources/images/services-section/icons/3.svg" alt="service3 logo" />
-            </div>
-            <h3>Application Development</h3>
-            <p>
-              We develop high-quality mobile and web applications using the
-              latest technology stack.s
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section id="questions">
-      <div class="container">
-        <div class="questions-container">
-          <h3>Do you have any questions?</h3>
-          <p>Let us help you!</p>
-          <div class="input-container">
-            <input type="text" placeholder="Enter your email">
-            <a href="#" class="contact-btn">Subscribe</a>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-address">
-        <div class="footer-address-logo">
-          <img src="./resources/images/logos/circle.svg" alt="Logo Circle" />
-        </div>
-        <div class="footer-address-text">
-          <p>2972 Westheimer Rd. Santa Ana,<br />Illinois 85486</p>
-        </div>
-      </div>
-      <div class="footer-links">
-        <a href="#">Team</a>
-        <a href="#">Services</a>
-        <a href="#">About Us</a>
-        <a href="#">Press</a>
-        <a href="#">Projects</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <script type="module" src="./resources/js/index.js"></script>
-</body>
-
+    <script type="module" src="./resources/js/index.js"></script>
+  </body>
 </html>
