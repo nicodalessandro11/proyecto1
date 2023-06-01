@@ -553,6 +553,21 @@ textarea {
   color: #292e47;
 }
 
+.video-frame iframe {
+  width: 100%;
+}
+
+.podcast-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.podcast-frame iframe {
+  width: 100%;
+}
+
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
@@ -685,6 +700,15 @@ textarea {
     width: 120px;
     margin-left: 16px;
   }
+
+  #favorite-songs .video-frame iframe {
+    width: 30rem;
+  }
+
+  #podcast .podcast-frame iframe {
+    width: 30rem;
+  }
+
   footer .container {
     display: flex;
     justify-content: space-between;
@@ -739,6 +763,30 @@ textarea {
     color: #292e47;
     margin-top: 5rem;
     margin-bottom: 4rem;
+  }
+
+  #about-us .about-persons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #about-us .about-person {
+    width: 30%;
+  }
+
+  #favorite-songs .container .title-about,  #podcast .container .title-about{
+   margin-left: 160px;
+   margin-top: 70px;
+   margin-bottom: 40px;
+  }
+
+  #favorite-songs .video-frame iframe {
+    width: 35rem;
+  }
+
+  #podcast .podcast-frame iframe {
+    width: 35rem;
   }
 }
 

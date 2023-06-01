@@ -11,7 +11,7 @@ async function readJSONFile() {
 
 const myJson = await readJSONFile();
 const videosContainer = document.querySelector(".videos-container");
-const podcastContainer = document.querySelector("#podcast .podcast");
+const podcastContainer = document.querySelector("#podcast .podcast-frame");
 
 const videosArray = myJson.videos.map((video) => {
   return `<div class="video" id="${video.id}">
@@ -51,7 +51,7 @@ const podcastArray = myJson.podcast.map((podcast) => {
     <iframe
       src="${podcast.link}"
       width="560"
-      height="480"
+      height="380"
       frameborder="0"
       allowtransparency="true"
       allow="encrypted-media"
