@@ -8,7 +8,6 @@ export class ProjectRenderer {
     try {
       const projects = await this.getProjectsFromAPI();
       const filteredProjects = this.filterProjects(projects, filterId, exclude);
-      console.log(filteredProjects);
       this.renderProjects(
         filteredProjects,
         createProjectElement,
