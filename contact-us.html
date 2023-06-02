@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Circle Agency</title>
     <link rel="stylesheet" href="resources/styles/style.css" />
-    <style>
-        /* Reglas de estilo específicas para este HTML */
-        header {
-          margin: 0 100px;
-        }
-        footer {
-          margin-left: 100px;
-          margin-right: 100px;
-        }
-      </style>
   </head>
 
   <body>
@@ -31,12 +29,17 @@
             </a>
           </div>
 
+          <div class="icon-container">
+            <i class="fa-solid fa-bars" id="btnHamburger"></i>
+            <i class="fa-solid fa-xmark" id="btnCross"></i>
+          </div>
+
           <div class="menu">
             <ul>
-                <li><a href="./index.html"">Home</a></li>
-                <li><a href="./index.html#projects">Projects</a></li>
-                <li><a href="./index.html#services">Services</a></li>
-                <li><a href="./about-us.html">About</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="./about-us.html">About</a></li>
             </ul>
           </div>
 
@@ -48,21 +51,46 @@
     </header>
 
     <main>
-      <section id="contact">
+      <section id="contact-us">
         <div class="container">
           <div class="contact-container">
             <h1>Contact us</h1>
             <div class="contact-form">
-              <form action="">
+              <form id="contact-us-form" action="">
                 <label for="full-name">Full Name *</label>
-                <input type="text" placeholder="Enter your full name" />
-                <label for="email">Email</label>
-                <input type="text" placeholder="Enter your email" />
-                <label for="phone">Phone</label>
-                <input type="text" placeholder="Enter your phone" />
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Enter your full name"
+                />
+                <div class="contact-email-phone">
+                  <div class="email">
+                    <label for="email">Email *</label>
+                    <input
+                      id="email"
+                      type="text"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="phone">
+                    <label for="phone">Phone</label>
+                    <input
+                      id="phone"
+                      type="text"
+                      placeholder="Enter your phone"
+                    />
+                  </div>
+                </div>
+
                 <label for="message">Message *</label>
-                <textarea name="text-area" rows="15" placeholder="Write your message here..."></textarea>
+                <textarea
+                  id="message"
+                  name="text-area"
+                  rows="15"
+                  placeholder="Write your message here..."
+                ></textarea>
                 <button type="submit">Submit</button>
+                <div class="message-container" id="message-container"></div>
               </form>
             </div>
           </div>
@@ -91,6 +119,6 @@
       </div>
     </footer>
 
-    <script type="module" src="./resources/js/index.js"></script>
+    <script type="module" src="./resources/js/contact.js"></script>
   </body>
 </html>

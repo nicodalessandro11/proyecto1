@@ -60,3 +60,24 @@ const podcastArray = myJson.podcast.map((podcast) => {
 
 videosContainer.innerHTML = videosArray.join("");
 podcastContainer.innerHTML = podcastArray.join("");
+
+/* MENU */
+const btnHamburger = document.querySelector('#btnHamburger');
+const btnCross = document.querySelector('#btnCross');
+const menu = document.querySelector('.menu');
+
+btnHamburger.addEventListener('click',(e) => {
+  e.target.style.opacity = '0';
+  e.target.style.zIndex = '0';
+  btnCross.style.opacity = '1';
+  btnCross.style.zIndex = '1';
+  menu.style.height = '210px';
+})
+
+btnCross.addEventListener('click',(e) => {
+  e.target.style.opacity = '0';
+  e.target.style.zIndex = '0';
+  btnHamburger.style.opacity = '1';
+  btnHamburger.style.zIndex = '1';
+  menu.style.height = '0';
+})
