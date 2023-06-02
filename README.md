@@ -5,7 +5,7 @@
 <div align="center">
   <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://midterm-project.vercel.app/">Visit Website</a>
+  <a href="https://proyecto1-lyart.vercel.app/">Visit Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -42,7 +42,7 @@
 
 Este proyecto tiene como objetivo construir y desplegar el sitio web que se muestra en la imagen de manera totalmente responsiva y utilizando las tecnologías que hemos aprendido hastael momento en el bootcamp de Front-End-Development: HTML, CSS y JavaScript.
 
-La idea es recrear el diseño preexistente y crear algunas interacciones con el DOM, utilizando lo que hemos aprendido sobre JavaScript hasta ahora. Al finalizar, este proyecto se desplega en Netlify, utilizando la CLI de Git para hacerlo.
+La idea es recrear el diseño preexistente y crear algunas interacciones con el DOM, utilizando lo que hemos aprendido sobre JavaScript hasta ahora. Al finalizar, este proyecto se desplega en Vercel, utilizando la integración con Git para hacerlo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,7 +52,7 @@ La idea es recrear el diseño preexistente y crear algunas interacciones con el 
     - CSS
     - JavaScript
     - Git
-    - Netlify CLI
+    - Vercel
     - Trello
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +102,7 @@ Si tienes alguna pregunta sobre el proyecto no dudes en contactar conmigo, te de
 Aquí dejo los enlaces relevantes al proyecto:
 
 - Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](link)
-- Enlace de presentación TBD: [Inserta aquí tu enlace de presentación](link)
+- Enlace de presentación TBD: [TBD](link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
