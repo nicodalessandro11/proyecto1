@@ -102,7 +102,7 @@ Si tienes alguna pregunta sobre el proyecto no dudes en contactar conmigo, te de
 Aquí dejo los enlaces relevantes al proyecto:
 
 - Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](link)
-- Enlace de presentación TBD: [TBD](link)
+- Enlace de presentación TBD: [https://docs.google.com/presentation/d/1vzZTI78NRJDN396-pDW_v5CZ_SpH-dfCkL89Ek1DOgg/edit?usp=sharing](link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -129,6 +129,9 @@ En resumen, a pesar de los desafíos, este proyecto es en lo personal una gran o
 
 ## Grande Error
 
-TBD.-
+"Me gustan más mis errores que mi acierto. No quiero renunciar a la deliciosa libertad de equivocarme."
+
+      -Charles Chaplin- 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
