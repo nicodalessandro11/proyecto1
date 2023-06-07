@@ -102,7 +102,7 @@ Si tienes alguna pregunta sobre el proyecto no dudes en contactar conmigo, te de
 Aquí dejo los enlaces relevantes al proyecto:
 
 - Enlace del proyecto: [https://github.com/nicodalessandro11/proyecto1](link)
-- Enlace de presentación TBD: [https://docs.google.com/presentation/d/1vzZTI78NRJDN396-pDW_v5CZ_SpH-dfCkL89Ek1DOgg/edit?usp=sharing](link)
+- Enlace de presentación: [https://docs.google.com/presentation/d/1vzZTI78NRJDN396-pDW_v5CZ_SpH-dfCkL89Ek1DOgg/edit?usp=sharing](link)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
