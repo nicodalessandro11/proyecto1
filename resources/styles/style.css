@@ -619,26 +619,63 @@ textarea {
   margin-bottom: 60px;
 }
 
-.about-person {
+.about-persons-container .profile-container {
+  width: 80%;
   position: relative;
-  width: 50%;
-  margin: 20px;
 }
 
-.about-person h2 {
-  position: absolute;
+.about-persons-container .profile-container .profile {
+  transition: all 0.5s ease;
+}
+.about-persons-container .profile-container .profile img {
   width: 100%;
+}
+
+.about-persons-container .profile-container .profile h2 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 10px;
 }
 
-.about-person img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
+.about-persons-container .profile-container .profile-text {
+  z-index: -1;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding: 32px;
+  background: rgb(60, 60, 60);
+  color: rgba(255, 255, 255, 0.904);
+  transform: rotateY(-180deg);
+  opacity: 0;
+}
+
+.about-persons-container .profile-container:hover .profile-text {
+  visibility: visible;
+  z-index: 99;
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+.about-persons-container .profile-container:hover .profile {
+  opacity: 0;
+}
+
+.about-persons-container .profile-container .profile-text h2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.about-persons-container .profile-container .profile-text p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.about-persons-container .profile-container .profile-text span {
+  font-weight: 00;
+  color: #ffb347;
 }
 
 .videos-container {
@@ -823,6 +860,18 @@ textarea {
     margin-left: 16px;
   }
 
+  #about-us .about-persons-container .profile-container {
+    width: 40%;
+  }
+
+  #about-us .about-persons-container .profile-container .profile-text h2 {
+    font-size: 20px;
+  }
+
+  #about-us .about-persons-container .profile-container .profile-text p {
+    font-size: 15px;
+  }
+
   #favorite-songs .video-frame iframe {
     width: 30rem;
   }
@@ -898,14 +947,16 @@ textarea {
     margin-left: 16px;
   }
 
-  #about-us .about-persons-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  #about-us .about-persons-container .profile-container {
+    width: 30%;
   }
 
-  #about-us .about-person {
-    width: 30%;
+  #about-us .about-persons-container .profile-container .profile-text h2 {
+    font-size: 35px;
+  }
+
+  #about-us .about-persons-container .profile-container .profile-text p {
+    font-size: 20px;
   }
 
   #favorite-songs .container .title-about,
